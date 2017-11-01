@@ -1,0 +1,104 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Page Not Found | Unforgettable Gala | Kore Asian Media</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+        <link href="https://fonts.googleapis.com/css?family=Questrial|Roboto+Condensed:300,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/swiper.min.css">
+        <link rel="stylesheet" href="css/unforgettable.css">
+    </head>
+<body>
+    <header class="gui">
+            <div class="logo">
+                <a href="http://kore.am/" target="_blank">KORE</a> <a href="#hero" class="home-link"><img src="img/LOGOS/logo-dark.png" alt="Unforgettable"></a>
+            </div>
+            <div class="hamburger">
+                <div class="d1"></div>
+                <div class="d2"></div>
+                <div class="d3"></div>
+            </div>
+            <div class="mobile-menu">
+                <button class="close">
+                    <div class="l1"></div>
+                    <div class="l2"></div>
+                </button>
+                
+                <div class="social">
+                    <ul>
+                        <li><a href="https://www.facebook.com/koreasianmedia/" target="_blank">
+                            <i class="fa fa-facebook"></i>
+                        </a></li>
+                        <li><a href="http://twitter.com/koreasianmedia?lang=en" target="_blank">
+                            <i class="fa fa-twitter"></i>
+                        </a></li>
+                        <li><a href="http://www.instagram.com/koreasianmedia/" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                        </a></li>
+                    </ul>
+                </div>
+                <div class="copyright">
+                    &copy; London Trust Media Kore Media. All Rights Reserved.
+                </div>
+                <div class="navmask"></div>
+            </div>
+            <div class="promo">
+                Presented By
+                <img src="img/LOGOS/BMW.png" alt="BMW">
+            </div>
+        </header>
+        <section class="hero" data-section-name="hero">
+            <div style="position: relative; top: 47%;">
+                <h1>Page Not Found</h1>
+                <p>Sorry, but the page you were trying to view does not exist.</p>
+                <p><a href="index.html" style="text-decoration:underline; color: #95793a">Go Back</a></p>
+            </div>
+
+
+            <div class="gradient_mask"></div>
+            <div class="mask"></div>
+        </section>
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+
+        <script>
+            // if ($(window).width() > 768) {
+                $(function() {
+
+                    $("nav li").on("click",function() {
+                        $.scrollify.move($(this).find("a").attr("href"));
+                        $('.hamburger').removeClass('hide');
+                        $('.mobile-menu').removeClass('active');
+                        $('body').removeClass('noscroll');
+                    });
+                    
+                });
+            // }
+        </script>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-78962185-2"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-78962185-2');
+        </script>
+    
+</body>
+</html>
+<!-- IE needs 512+ bytes: https://blogs.msdn.microsoft.com/ieinternals/2010/08/18/friendly-http-error-pages/ -->
