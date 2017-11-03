@@ -936,6 +936,70 @@ section {
 		}
 	}
 }
+.sponsors {
+		height: auto;
+		/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,eadeb8+100&0+45,1+99 */
+		background: -moz-radial-gradient(center, ellipse cover, rgba(255,255,255,0) 0%, rgba(246,240,223,0) 45%, rgba(234,222,185,1) 99%, rgba(234,222,184,1) 100%); /* FF3.6-15 */
+		background: -webkit-radial-gradient(center, ellipse cover, rgba(255,255,255,0) 0%,rgba(246,240,223,0) 45%,rgba(234,222,185,1) 99%,rgba(234,222,184,1) 100%); /* Chrome10-25,Safari5.1-6 */
+		background: radial-gradient(ellipse at center, rgba(255,255,255,0) 0%,rgba(246,240,223,0) 45%,rgba(234,222,185,1) 99%,rgba(234,222,184,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#eadeb8',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	& > h1 {
+		position: relative;
+		text-align: center;
+		margin-top: 0;
+		top: 90px;
+		font-size: 1.39rem;
+	}
+	.container {
+		position: relative;
+		top: 110px;
+		padding-bottom: 200px;
+		width: 50%;
+		min-width: 320px;
+		margin: auto;
+		text-align: center;
+	}
+	.package-level {
+		h2 {
+			font-family: 'Roboto Condensed', sans-serif;
+			font-weight: 700;
+			font-size: 1rem;
+			text-transform: uppercase;
+			letter-spacing: 0.2rem;
+			color: #95793a;	
+			margin-top: 2rem;
+		}
+		&:last-child {
+			.sponsors-container {
+				border-bottom: 0;
+			}
+		}
+	}
+	.sponsors-container {
+		@include prefix((
+			display: flex,
+			align-items: center,
+			justify-content: center,
+			flex-flow: row wrap
+		), webkit moz);
+		padding-bottom: 2rem;
+		border-bottom: 1px solid $gui-nav-color;
+	}
+	.sponsor {
+		@include prefix((
+			display: flex,
+			align-items: center,
+			justify-content: center
+		), webkit moz);
+		height: 50px;
+		max-width: 150px;
+		min-width: 82px;
+		margin: 0 60px;
+		img {
+			max-height: 50px;
+		}
+	}
+}
 .swiper-container {
     width: 100%;
     height: 100%;
@@ -1995,6 +2059,14 @@ section {
 			height: 40%;
 		}
 	}
+	.sponsors {
+		.container {
+			width: 75%;
+		}
+		.sponsor {
+			margin: 15px 40px;
+		}
+	}
 }
 @media screen and (max-width: 697px) {
 	.recipients {
@@ -2035,6 +2107,11 @@ section {
 	  	.name {
   		  font-size: 0.85rem;
 	  	}
+		}
+	}
+	.sponsors {
+		.sponsor {
+			margin: 0 25px;
 		}
 	}
 }
