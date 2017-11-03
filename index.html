@@ -48,8 +48,8 @@
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#recipients">Recipients</a></li>
+                        <li class="first_tier"><a href="#about">About</a></li>
+                        <li class="first_tier"><a href="#recipients">Recipients</a></li>
                         <!-- <li class="parent"><a href="#awards">Awards</a>
                             <ul>
                                 <li><a href="#recipients">Recipients</a></li>
@@ -57,17 +57,17 @@
                             </ul>
                         </li> -->
                         <!-- <li><a href="#performances">Performances</a></li> -->
-                        <li><a href="#eventinfo">Event Info</a></li>
-                        <!-- <li class="parent"><a href="#sponsorship">Sponsorship</a>
+                        <li class="first_tier"><a href="#eventinfo">Event Info</a></li>
+                        <li class="first_tier parent"><a href>Sponsorship</a>
                             <ul>
                                 <li><a href="#packages">Packages</a></li>
-                                <li><a href="#becomesponsor">Become a Sponsor</a></li>
+                                <li><a href="#sponsors">Sponsors</a></li>
                             </ul>
-                        </li> -->
-                        <li><a href="#packages">Sponsor Packages</a></li>
+                        </li>
+                        <!-- <li><a href="#packages">Sponsor Packages</a></li> -->
                         <!-- <li><a href="#pastgalas">Past Galas</a></li>
                         <li><a href="#gallery">Gallery</a></li> -->
-                        <li><a href="#contact">Contact</a></li>
+                        <li class="first_tier"><a href="#contact">Contact</a></li>
                     </ul>
                 </nav>
                 <div class="social">
@@ -647,11 +647,11 @@
                     <div class="sponsors-container">
                         <div class="sponsor">
                             <a href="https://www.pechanga.com/" target="_blank">
-                                <img src="img/LOGOS/PECHANGA.png" alt="Pechanga Resort Casino" style="max-height: 80px;">
+                                <img class="logo-adjustment" src="img/LOGOS/PECHANGA.png" alt="Pechanga Resort Casino">
                             </a>
                         </div>
                         <div class="sponsor">
-                            <a href="">
+                            <a href="https://www.privateinternetaccess.com/">
                                 <img src="img/LOGOS/PIA.png" alt="Private Internet Access">
                             </a>
                         </div>
@@ -662,7 +662,7 @@
                     <h2>Silver</h2>
                     <div class="sponsors-container">
                         <div class="sponsor">
-                            <a href="">
+                            <a href="http://www.kaedc.org/">
                                 <img src="img/LOGOS/MLHONG.png" alt="M & L Hong Foundation">
                             </a>
                         </div>
@@ -673,13 +673,29 @@
                     <h2>Corporate</h2>
                     <div class="sponsors-container">
                         <div class="sponsor">
+                            <a href="http://www.miraeasset.com/main.html" target="_blank">
+                                <img src="img/LOGOS/MIRAE.png" alt="Mirae Asset">
+                            </a>
+                        </div>
+                        <div class="sponsor">
                             <a href="http://tenadv.com/" target="_blank">
                                 <img src="img/LOGOS/TENADVERTISING.png" alt="Ten Advertising">
                             </a>
                         </div>
                         <div class="sponsor">
-                            <a href="">
+                            <a href="https://amwestfunding.com/">
                                 <img src="img/LOGOS/AMWEST.png" alt="Am West">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="package-level">
+                    <h2>Community</h2>
+                    <div class="sponsors-container">
+                        <div class="sponsor">
+                            <a href="http://calywire.com/">
+                                <img src="img/LOGOS/CALYWIRE.png" alt="Calywire Digital Marketing">
                             </a>
                         </div>
                     </div>
@@ -689,17 +705,17 @@
                     <h2>Product</h2>
                     <div class="sponsors-container">
                         <div class="sponsor">
-                            <a href="">
+                            <a href="http://www.tiffany.com/">
                                 <img src="img/LOGOS/TIFFANY.png" alt="Tiffany & Co.">
                             </a>
                         </div>
                         <div class="sponsor">
-                            <a href="">
+                            <a href="http://www.wildflowerlinens.com/">
                                 <img src="img/LOGOS/WILDFLOWERLINEN.png" alt="Wild Flower Linen">
                             </a>
                         </div>
                         <div class="sponsor">
-                            <a href="">
+                            <a href="https://lapremier.com/">
                                 <img src="img/LOGOS/LAPREMIERE.png" alt="LA Premiere">
                             </a>
                         </div>
@@ -735,7 +751,7 @@
                 paginationClickable: true,
                 autoplayStopOnLast: true,
 
-            }).onReachEnd(swiper);
+            });
         </script>
         <script>
             // if ($(window).width() > 768) {
@@ -746,11 +762,12 @@
                         before: function(i, panels) {
                             var ref = panels[i].attr("class");
                             $('nav').find('.active').removeClass('active');
-                            $("nav").find("a[href=\"#" + ref + "\"]").parent('li').addClass('active');
+                            $("nav").find("a[href=\"#" + ref + "\"]").parents('.first_tier').addClass('active');
                         }
                     });
                     $("nav li, .cta, .logo").on("click",function() {
-                        $.scrollify.move($(this).find("a").attr("href"));
+                        var href = $(this).find("a").attr("href");
+                        $.scrollify.move(href);
                         $('.hamburger').removeClass('hide');
                         $('.mobile-menu').removeClass('active');
                         $('body').removeClass('noscroll');

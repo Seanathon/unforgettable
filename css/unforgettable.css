@@ -103,7 +103,7 @@ h1 {
   .gui nav {
     top: 50%;
     left: 45px;
-    margin-top: -125.5px;
+    margin-top: -177.5px;
     font-size: 0.72222rem;
     text-transform: uppercase;
     color: #95793a;
@@ -164,7 +164,7 @@ h1 {
         top: 17px; }
       .gui nav .parent ul {
         border: 0;
-        margin-top: 20px; }
+        margin-top: 20px !important; }
         .gui nav .parent ul li {
           padding-left: 40px;
           left: -30px;
@@ -871,10 +871,14 @@ section {
     justify-content: center;
     height: 50px;
     max-width: 150px;
-    min-width: 82px;
-    margin: 0 60px; }
+    min-width: 82px; }
+    .sponsors .sponsor:nth-child(even) {
+      margin: 0 80px; }
     .sponsors .sponsor img {
       max-height: 50px; }
+  .sponsors .logo-adjustment {
+    max-height: 80px;
+    margin: 0 80px; }
 
 .swiper-container {
   width: 100%;
@@ -983,8 +987,6 @@ section {
 @media screen and (max-height: 760px) {
   .gui nav ul {
     margin-top: 0 !important; }
-    .gui nav ul li {
-      height: 74px !important; }
 
   .recipients h1 {
     top: 5%; }
@@ -1002,8 +1004,6 @@ section {
 @media screen and (max-height: 650px) {
   .gui nav ul {
     margin-top: 0 !important; }
-    .gui nav ul li {
-      height: 60px !important; }
 
   .hero .sponsor > img {
     max-width: 50%; }
@@ -1250,7 +1250,10 @@ section {
     height: 325px;
     border: 25px solid rgba(255, 255, 255, 0.15); }
     .recipients .modal .recipient .title {
-      margin-top: -18px; } }
+      margin-top: -18px; }
+
+  .sponsors .container {
+    width: 60%; } }
 @media screen and (max-width: 975px) {
   .hero .logo {
     max-width: 700px; }
@@ -1326,7 +1329,7 @@ section {
     .gui nav ul {
       margin-top: 3rem; }
       .gui nav ul li {
-        height: 90px;
+        height: 55px;
         padding-left: 0;
         text-align: center; }
         .gui nav ul li::before {
@@ -1336,6 +1339,15 @@ section {
     .gui nav a {
       opacity: 1;
       left: auto; }
+    .gui nav .parent {
+      margin-bottom: 0;
+      height: auto; }
+      .gui nav .parent ul {
+        margin-top: 28px !important; }
+        .gui nav .parent ul li {
+          padding-left: 0;
+          left: 0;
+          height: 55px; }
 
   .hero {
     font-size: 0.5rem; }
@@ -1534,7 +1546,29 @@ section {
     .packages .gradient-left {
       display: none; }
     .packages .gradient-right {
-      display: none; } }
+      display: none; }
+
+  .sponsors .container {
+    width: 75%; }
+  .sponsors .sponsor {
+    margin: 15px 40px; } }
+@media screen and (max-width: 768px) and (max-height: 690px) {
+  .gui .cta img {
+    max-height: 95px !important; }
+  .gui nav {
+    top: 85px !important; }
+    .gui nav ul {
+      margin-top: 19px !important; }
+      .gui nav ul li {
+        height: 45px !important; }
+        .gui nav ul li a {
+          font-size: 1rem; }
+    .gui nav .parent {
+      height: auto !important; }
+      .gui nav .parent ul {
+        margin-top: 18px !important; }
+      .gui nav .parent li {
+        height: 45px; } }
 @media screen and (max-width: 768px) and (min-width: 500px) {
   .gui .logo {
     font-size: 1rem;
@@ -1577,12 +1611,11 @@ section {
     .about > div:first-child .subtitle {
       margin-top: 0; }
   .about > div:last-child {
-    height: 40%; }
-
-  .sponsors .container {
-    width: 75%; }
-  .sponsors .sponsor {
-    margin: 15px 40px; } }
+    height: 40%; } }
+@media screen and (max-width: 720px) {
+  .sponsors .logo-adjustment {
+    max-height: 80px;
+    margin: 0; } }
 @media screen and (max-width: 697px) {
   .recipients .recipient, .recipients .recipient:nth-child(2), .recipients .recipient:nth-child(even) {
     width: 270px;
@@ -1604,7 +1637,7 @@ section {
     font-size: 0.85rem; }
 
   .sponsors .sponsor {
-    margin: 0 25px; } }
+    margin: 20px 25px; } }
 @media screen and (max-width: 582px) {
   .recipients .recipient, .recipients .recipient:nth-child(2), .recipients .recipient:nth-child(even) {
     width: 230px;
