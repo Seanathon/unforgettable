@@ -858,7 +858,7 @@ section {
     -moz-flex-flow: row wrap;
     flex-flow: row wrap;
     padding-bottom: 2rem;
-    border-bottom: 1px solid #95793a; }
+    border-bottom: 1px solid #c4b691; }
   .sponsors .sponsor {
     -webkit-display: flex;
     -moz-display: flex;
@@ -870,13 +870,13 @@ section {
     -moz-justify-content: center;
     justify-content: center;
     height: 50px;
-    max-width: 150px;
+    max-width: 170px;
     min-width: 82px; }
     .sponsors .sponsor:nth-child(even) {
       margin: 0 80px; }
     .sponsors .sponsor img {
-      max-height: 50px; }
-  .sponsors .logo-adjustment {
+      max-height: 60px; }
+  .sponsors img.logo-adjustment {
     max-height: 80px;
     margin: 0 80px; }
 
@@ -1615,7 +1615,7 @@ section {
 @media screen and (max-width: 720px) {
   .sponsors .logo-adjustment {
     max-height: 80px;
-    margin: 0; } }
+    margin: 0 !important; } }
 @media screen and (max-width: 697px) {
   .recipients .recipient, .recipients .recipient:nth-child(2), .recipients .recipient:nth-child(even) {
     width: 270px;

@@ -2,11 +2,19 @@ $(document).ready(function(){
 	var wHeight = $(window).height();
 	var wHTwo = wHeight - (wHeight*0.2);
 	var wWidth = $(window).width();
+	var promoYo = $(".hero").height() + $(".about").height() + $(".recipients").height() + $(".eventinfo").height() - 50;
+	var promoYoEnd = -10 + promoYo + $(".sponsors").height();
+	console.log(promoYoEnd);
+
 
 	$(window).scroll(function() {
-		if($(window).scrollTop() > wHTwo) {
+		if($(window).scrollTop() > wHTwo && $(window).scrollTop() < promoYo || $(window).scrollTop() >= promoYoEnd) {
+
 			$('.gui').find('.promo').addClass('show');
+		} else if( $(window).scrollTop() > promoYo && $(window).scrollTop() < promoYoEnd ) {
+			$('.gui').find('.promo').removeClass('show');
 		} else {
+			console.log("other");
 			$('.gui').find('.promo').removeClass('show');
 		}
 	});
