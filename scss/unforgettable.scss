@@ -983,7 +983,7 @@ section {
 			flex-flow: row wrap
 		), webkit moz);
 		padding-bottom: 2rem;
-		border-bottom: 1px solid $gui-nav-color;
+		border-bottom: 1px solid #c4b691;
 	}
 	.sponsor {
 		@include prefix((
@@ -992,16 +992,16 @@ section {
 			justify-content: center
 		), webkit moz);
 		height: 50px;
-		max-width: 150px;
+		max-width: 170px;
 		min-width: 82px;
 		&:nth-child(even) {
 			margin: 0 80px;
 		}
 		img {
-			max-height: 50px;
+			max-height: 60px;
 		}
 	}
-	.logo-adjustment {
+	img.logo-adjustment {
 		max-height: 80px; 
 		margin: 0 80px;
 	}
@@ -2119,7 +2119,7 @@ section {
 	.sponsors {
 		.logo-adjustment {
 			max-height: 80px; 
-			margin: 0;
+			margin: 0!important;
 		}
 	}
 }
