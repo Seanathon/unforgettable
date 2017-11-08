@@ -33,20 +33,20 @@ $(document).ready(function(){
 
 
 	// Recipients Modal
-		$('.recipient').on('click', function() {
+		$('.recipient, .presenter').on('click', function() {
 			var p = $(this).data('person');
 			if ( p == "tba" ) {
 				
 			} else {
-				$('.modals').find('.active').removeClass('active');
+				$(this).parents('.people').find('.modals').find('.active').removeClass('active');
 				$('#' + p).addClass('active');
-				$('.modals').toggleClass('show');
+				$(this).parents('.people').find('.modals').toggleClass('show');
 				$('body').toggleClass('noscroll');
 			}
 		});
 
 		$('.modals').find('.close').on('click', function() {
-			$('.modals').toggleClass('show');
+			$(this).parents('.people').find('.modals').toggleClass('show');
 			$('body').toggleClass('noscroll');
 		});
 
@@ -71,7 +71,6 @@ $(document).ready(function(){
 						$('.modal:nth-child('+t+')').addClass('active');
 					}
 				}
-
 			});
 
 	$('.package').on('click', function() {
