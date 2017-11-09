@@ -50,6 +50,7 @@
                     <ul>
                         <li class="first_tier"><a href="#about">About</a></li>
                         <li class="first_tier"><a href="#recipients">Recipients</a></li>
+                        <li class="first_tier"><a href="#presenters">Presenters</a></li>
                         <!-- <li class="parent"><a href="#awards">Awards</a>
                             <ul>
                                 <li><a href="#recipients">Recipients</a></li>
@@ -153,7 +154,7 @@
             </div>
         </section>
 
-        <section class="people recipients" data-section-name="recipients">
+        <section class="recipients people" data-section-name="recipients">
             <h1 class="desktopTitle">
                 <span>A</span><span>w</span><span>a</span><span>r</span><span>d</span><span>&nbsp;</span><span>R</span><span>e</span><span>c</span><span>i</span><span>p</span><span>i</span><span>e</span><span>n</span><span>t</span><span>s</span>
             </h1>
@@ -371,7 +372,7 @@
             </div>
         </section>
 
-        <section class="people presenters" data-section-name="presenters">
+        <section class="presenters people" data-section-name="presenters">
             <h1>Presenters</h1>
             <div class="presenter-container">
                 <div class="presenter" data-person="tokimonsta">
@@ -489,6 +490,28 @@
                 </div>
                 <img class="carousel-controls next" src="img/BUTTONS/arrow-right.svg" alt="Next Recipient" />
                 <img class="carousel-controls previous" src="img/BUTTONS/arrow-left.svg" alt="Previous Recipient" />
+            </div>
+        </section>
+
+        <section class="performers people" data-section-name="performers">
+            <h1>Performers</h1>
+            <div>
+                <div class="recipient" data-person="leonam">
+                    <div class="bgimg" style="background-image: url('img/HEADSHOTS/RECIPIENTS/LEONAM.jpg')"></div>
+                    <div class="name">Leonardo<br /> Nam<div>More Info</div></div>
+                </div>
+                <div class="recipient" data-person="justinchon">
+                    <div class="bgimg" style="background-image: url('img/HEADSHOTS/RECIPIENTS/JUSTINCHON.jpg')"></div>
+                    <div class="name">Justin<br /> Chon<div>More Info</div></div>
+                </div>
+                <div class="recipient" data-person="awkwafina">
+                    <div class="bgimg" style="background-image: url('img/HEADSHOTS/RECIPIENTS/AWKQUAFINA.jpg')"></div>
+                    <div class="name">Awkwafina<div>More Info</div></div>
+                </div>
+                <div class="recipient" data-person="rossbutler">
+                    <div class="bgimg" style="background-image: url('img/HEADSHOTS/RECIPIENTS/ROSSBUTLER.jpg')"></div>
+                    <div class="name">Ross<br /> Butler<div>More Info</div></div>
+                </div>
             </div>
         </section>
 
@@ -753,9 +776,7 @@
         </section>
 
         <section class="sponsors" data-section-name="sponsors">
-            
             <h1>Sponsors</h1>
-
             <div class="container">
                 
                 <div class="package-level">
@@ -849,7 +870,6 @@
                     </div>
                 </div>
             </div>
-
         </section>
 
         <section class="contact" data-section-name="contact">
@@ -876,39 +896,38 @@
                 keyboardControl: true,
                 pagination: '.swiper-pagination',
                 paginationClickable: true,
-                autoplayStopOnLast: true,
-
+                autoplayStopOnLast: true
             });
         </script>
         <script>
             // if ($(window).width() > 768) {
-                $(function() {
-                    $.scrollify({
-                        section : "section",
-                        standardScrollElements: ".package ul, .packages-scroll, .modals",
-                        before: function(i, panels) {
-                            var ref = panels[i].attr("class");
-                            $('nav').find('.active').removeClass('active');
-                            $("nav").find("a[href=\"#" + ref + "\"]").parents('.first_tier').addClass('active');
-                        }
-                    });
-                    $("nav li, .cta, .logo").on("click",function() {
-                        var href = $(this).find("a").attr("href");
-                        $.scrollify.move(href);
-                        $('.hamburger').removeClass('hide');
-                        $('.mobile-menu').removeClass('active');
-                        $('body').removeClass('noscroll');
-                    });
-                    $(".package a").on("click",function() {
-                        $.scrollify.move($(this).attr("href"));
-                    });
-                    $(".home-link").on('click', function() {
-                        $.scrollify.move($(this).attr("href"));
-                    });
-                    $(".sponsor-link").on('click', function() {
-                        $.scrollify.move($(this).attr("href"));
-                    });
+            $(function() {
+                $.scrollify({
+                    section : "section",
+                    standardScrollElements: ".package ul, .packages-scroll, .modals",
+                    before: function(i, panels) {
+                        var ref = panels[i].attr("class").split(" ")[0];
+                        $('nav').find('.active').removeClass('active');
+                        $("nav").find("a[href=\"#" + ref + "\"]").parents('.first_tier').addClass('active');
+                    }
                 });
+                $("nav li, .cta, .logo").on("click",function() {
+                    var href = $(this).find("a").attr("href");
+                    $.scrollify.move(href);
+                    $('.hamburger').removeClass('hide');
+                    $('.mobile-menu').removeClass('active');
+                    $('body').removeClass('noscroll');
+                });
+                $(".package a").on("click",function() {
+                    $.scrollify.move($(this).attr("href"));
+                });
+                $(".home-link").on('click', function() {
+                    $.scrollify.move($(this).attr("href"));
+                });
+                $(".sponsor-link").on('click', function() {
+                    $.scrollify.move($(this).attr("href"));
+                });
+            });
             // }
         </script>
 

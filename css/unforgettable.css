@@ -103,7 +103,7 @@ h1 {
   .gui nav {
     top: 50%;
     left: 45px;
-    margin-top: -177.5px;
+    margin-top: -220.5px;
     font-size: 0.72222rem;
     text-transform: uppercase;
     color: #95793a;
@@ -575,6 +575,76 @@ section {
       .recipients .recipient:hover .name {
         transform: scale(0.84); }
 
+.performers {
+  position: relative;
+  background-image: url("../img/backgrounds/performers.jpg");
+  background-size: cover;
+  background-position: center; }
+  .performers h1 {
+    position: relative;
+    text-align: center;
+    margin-top: 0;
+    top: 90px;
+    font-size: 1.39rem;
+    color: #402c00; }
+  .performers > div {
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+    width: 80%;
+    height: 60%;
+    left: 8%;
+    top: 10%; }
+  .performers .recipient {
+    position: absolute;
+    box-sizing: border-box;
+    width: 375px;
+    height: 375px;
+    border-radius: 50%;
+    border: 40px solid rgba(255, 255, 255, 0.15);
+    cursor: pointer;
+    transition: 320ms ease-in-out; }
+    .performers .recipient:nth-child(1) {
+      top: 0;
+      left: 0; }
+    .performers .recipient:nth-child(2) {
+      top: 50%;
+      left: 25%; }
+    .performers .recipient:nth-child(3) {
+      top: 0;
+      left: 50%; }
+    .performers .recipient:nth-child(4) {
+      top: 50%;
+      left: 75%; }
+    .performers .recipient .bgimg {
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      background-position: center;
+      border-radius: 50%; }
+    .performers .recipient .name {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-weight: 700;
+      font-size: 1rem;
+      letter-spacing: 0.4em;
+      color: #fff;
+      text-transform: uppercase;
+      position: absolute;
+      top: 50%;
+      margin-top: -22px;
+      text-align: center;
+      right: -25%;
+      transition: 320ms ease-in-out; }
+      .performers .recipient .name div {
+        font-weight: 300;
+        letter-spacing: 0.2em;
+        font-size: 0.75em;
+        text-decoration: underline; }
+    .performers .recipient:hover {
+      transform: scale(1.2); }
+      .performers .recipient:hover .name {
+        transform: scale(0.84); }
+
 .eventinfo {
   text-transform: uppercase; }
   .eventinfo > div {
@@ -968,7 +1038,8 @@ section {
     padding: 2%;
     width: 20%;
     text-align: center;
-    cursor: pointer; }
+    cursor: pointer;
+    transition: 320ms ease-in-out; }
     .presenters .presenter-container > div .image {
       box-sizing: border-box;
       overflow: hidden;
@@ -981,6 +1052,10 @@ section {
       text-transform: uppercase;
       letter-spacing: 0.4rem;
       color: #95793a; }
+    .presenters .presenter-container > div:hover {
+      -webkit-transform: scale(1.15);
+      -moz-transform: scale(1.15);
+      transform: scale(1.15); }
   .presenters .presenter-container .host {
     font-family: 'Questrial', sans-serif;
     position: absolute;
@@ -1215,7 +1290,12 @@ section {
     .eventinfo .blacktie img {
       margin: 40px auto 1rem !important; }
   .eventinfo .schedule {
-    font-size: 0.9rem; } }
+    font-size: 0.9rem; }
+
+  .performers .recipient {
+    height: 320px;
+    width: 320px;
+    border: 30px solid rgba(255, 255, 255, 0.15); } }
 @media screen and (max-height: 650px) {
   .gui .cta img {
     max-height: 70px; }
@@ -1374,7 +1454,21 @@ section {
     padding-bottom: 10rem; }
     .presenters .presenter-container > div {
       width: 33.333333333%;
-      padding: 3%; } }
+      padding: 3%; }
+
+  .performers > div {
+    top: 13%; }
+  .performers .recipient {
+    height: 290px;
+    width: 290px;
+    border: 25px solid rgba(255, 255, 255, 0.15); } }
+@media screen and (max-width: 1000px) {
+  .performers > div {
+    top: 13%; }
+  .performers .recipient {
+    height: 250px;
+    width: 250px;
+    border: 20px solid rgba(255, 255, 255, 0.15); } }
 @media screen and (max-width: 975px) {
   .hero .logo {
     max-width: 700px; }
@@ -1390,6 +1484,53 @@ section {
     width: 40%; }
   .eventinfo > div:last-child {
     width: 60%; } }
+@media screen and (max-width: 900px) {
+  .performers {
+    height: auto;
+    overflow: auto;
+    padding: 0 0 100px; }
+    .performers > div {
+      top: 0;
+      left: 0;
+      width: auto;
+      height: auto;
+      margin-top: 100px; }
+    .performers .recipient {
+      position: relative;
+      height: 300px;
+      width: 300px;
+      margin: 0 0px 110px 100px;
+      float: left; }
+      .performers .recipient:nth-child(1) {
+        top: 0;
+        left: 0; }
+      .performers .recipient:nth-child(2) {
+        top: 0;
+        left: 0; }
+      .performers .recipient:nth-child(3) {
+        top: 0;
+        left: 0; }
+      .performers .recipient:nth-child(4) {
+        top: 0;
+        left: 0; }
+      .performers .recipient .name {
+        position: relative;
+        top: 0;
+        width: 100%;
+        right: 0;
+        margin-top: 30px; } }
+@media screen and (max-width: 830px) {
+  .performers .recipient {
+    height: 260px;
+    width: 260px;
+    margin: 0 0px 115px 110px; } }
+@media screen and (max-width: 780px) {
+  .performers .recipient {
+    height: 260px;
+    width: 260px;
+    margin: 0 0px 115px 110px; }
+    .performers .recipient:nth-child(even) {
+      margin-left: 50px; } }
 @media screen and (max-width: 768px) {
   .mobileTitle {
     display: block; }
@@ -1603,21 +1744,23 @@ section {
         .recipients .recipient .name br {
           display: none; }
 
-  .eventinfo > div:first-child {
-    width: 100%;
-    height: 40%; }
-  .eventinfo > div:last-child {
-    width: 100%;
-    height: 60%;
-    padding-bottom: 10%; }
-  .eventinfo .location {
-    margin-top: 0; }
-  .eventinfo .blacktie img {
-    margin: 20px auto 1rem !important; }
-  .eventinfo .spacer {
-    margin-bottom: 30px; }
-  .eventinfo .schedule {
-    font-size: 1rem; }
+  .eventinfo {
+    height: auto; }
+    .eventinfo > div:first-child {
+      width: 100%;
+      height: 40%; }
+    .eventinfo > div:last-child {
+      width: 100%;
+      height: auto;
+      padding-bottom: 10%; }
+    .eventinfo .location {
+      margin-top: 0; }
+    .eventinfo .blacktie img {
+      margin: 20px auto 1rem !important; }
+    .eventinfo .spacer {
+      margin-bottom: 30px; }
+    .eventinfo .schedule {
+      font-size: 1rem; }
 
   .packages {
     height: auto;
@@ -1738,10 +1881,13 @@ section {
       margin-top: 0; }
   .about > div:last-child {
     height: 40%; } }
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 725px) {
   .sponsors .logo-adjustment {
     max-height: 80px;
-    margin: 0 !important; } }
+    margin: 0 !important; }
+
+  .performers .recipient {
+    margin: 0 0px 115px 70px; } }
 @media screen and (max-width: 697px) {
   .recipients .recipient, .recipients .recipient:nth-child(2), .recipients .recipient:nth-child(even) {
     width: 270px;
@@ -1766,6 +1912,9 @@ section {
         letter-spacing: 0.2rem; }
     .presenters .presenter-container .host {
       position: relative; } }
+@media screen and (max-width: 645px) {
+  .performers .recipient {
+    margin: 0 0px 115px 40px; } }
 @media screen and (max-width: 635px) {
   .recipients .recipient, .recipients .recipient:nth-child(2), .recipients .recipient:nth-child(even) {
     width: 250px;
@@ -1776,6 +1925,11 @@ section {
 
   .sponsors .sponsor {
     margin: 20px 25px; } }
+@media screen and (max-width: 621px) {
+  .performers .recipient {
+    height: 240px;
+    width: 240px;
+    margin: 0 0px 115px 40px; } }
 @media screen and (max-width: 582px) {
   .recipients .recipient, .recipients .recipient:nth-child(2), .recipients .recipient:nth-child(even) {
     width: 230px;
@@ -1783,6 +1937,9 @@ section {
     margin-bottom: 75px; }
   .recipients .recipient .name {
     font-size: 0.85rem; } }
+@media screen and (max-width: 575px) {
+  .performers .recipient:nth-child(even) {
+    margin-left: 25px; } }
 @media screen and (max-width: 550px) {
   .presenters .presenter-container {
     padding-top: 110px; }
@@ -1792,7 +1949,22 @@ section {
       .presenters .presenter-container > div .name {
         letter-spacing: 0.2rem; }
     .presenters .presenter-container .host::before {
-      top: -7px; } }
+      top: -7px; }
+
+  .performers .recipient {
+    height: 240px;
+    width: 240px;
+    margin: 0 0px 115px 20px; } }
+@media screen and (max-width: 530px) {
+  .performers .recipient {
+    height: 220px;
+    width: 220px;
+    margin: 0 0px 115px 30px; } }
+@media screen and (max-width: 510px) {
+  .performers .recipient {
+    height: 200px;
+    width: 200px;
+    margin: 0 0px 115px 40px; } }
 @media screen and (max-width: 505px) {
   .recipients .recipient, .recipients .recipient:nth-child(2), .recipients .recipient:nth-child(even) {
     width: 195px;

@@ -2,23 +2,20 @@ $(document).ready(function(){
 	var wHeight = $(window).height();
 	var wHTwo = wHeight - (wHeight*0.2);
 	var wWidth = $(window).width();
-	var promoYo = $(".hero").height() + $(".about").height() + $(".recipients").height() + $(".eventinfo").height() - 50;
-	var promoYoEnd = -10 + promoYo + $(".sponsors").height();
+	var promoYo = $(".hero").height() + $(".about").height() + $(".recipients").height() + $(".presenters").height() + $(".performers").height() + $(".eventinfo").height() - 50;
+	var promoYoEnd = promoYo + $('.packages').height() + $(".sponsors").height();
+	console.log(promoYo);
 	console.log(promoYoEnd);
-
 
 	$(window).scroll(function() {
 		if($(window).scrollTop() > wHTwo && $(window).scrollTop() < promoYo || $(window).scrollTop() >= promoYoEnd) {
-
 			$('.gui').find('.promo').addClass('show');
 		} else if( $(window).scrollTop() > promoYo && $(window).scrollTop() < promoYoEnd ) {
 			$('.gui').find('.promo').removeClass('show');
 		} else {
-			console.log("other");
 			$('.gui').find('.promo').removeClass('show');
 		}
 	});
-
 
 	$('.hamburger').on('click', function() {
 		$('.hamburger').toggleClass('hide');
@@ -31,47 +28,45 @@ $(document).ready(function(){
 		$('body').toggleClass('noscroll');
 	});
 
-
 	// Recipients Modal
-		$('.recipient, .presenter').on('click', function() {
-			var p = $(this).data('person');
-			if ( p == "tba" ) {
-				
-			} else {
-				$(this).parents('.people').find('.modals').find('.active').removeClass('active');
-				$('#' + p).addClass('active');
-				$(this).parents('.people').find('.modals').toggleClass('show');
-				$('body').toggleClass('noscroll');
-			}
-		});
-
-		$('.modals').find('.close').on('click', function() {
+	$('.recipient, .presenter').on('click', function() {
+		var p = $(this).data('person');
+		if ( p == "tba" ) {
+		} else {
+			$(this).parents('.people').find('.modals').find('.active').removeClass('active');
+			$('#' + p).addClass('active');
 			$(this).parents('.people').find('.modals').toggleClass('show');
 			$('body').toggleClass('noscroll');
-		});
+		}
+	});
 
-		// Recipients Controls
-			$('.carousel-controls').on('click', function() {
+	$('.modals').find('.close').on('click', function() {
+		$(this).parents('.people').find('.modals').toggleClass('show');
+		$('body').toggleClass('noscroll');
+	});
 
-				var i = $('.modals').find('.active').index() + 1;
-				var t = $('.modal').length;
+	// Recipients Controls
+		$('.carousel-controls').on('click', function() {
 
-				if ( $(this).hasClass('next') ) {
-					if (i < t) {
-						$('.modals').find('.active').removeClass('active').next('.modal').addClass('active');
-					} else if (i == t) {
-						$('.modals').find('.active').removeClass('active');
-						$('.modal:first-child').addClass('active');
-					}
-				} else {
-					if (i > 1) {
-						$('.modals').find('.active').removeClass('active').prev('.modal').addClass('active');
-					} else if (i == 1) {
-						$('.modals').find('.active').removeClass('active');
-						$('.modal:nth-child('+t+')').addClass('active');
-					}
+			var i = $('.modals').find('.active').index() + 1;
+			var t = $('.modal').length;
+
+			if ( $(this).hasClass('next') ) {
+				if (i < t) {
+					$('.modals').find('.active').removeClass('active').next('.modal').addClass('active');
+				} else if (i == t) {
+					$('.modals').find('.active').removeClass('active');
+					$('.modal:first-child').addClass('active');
 				}
-			});
+			} else {
+				if (i > 1) {
+					$('.modals').find('.active').removeClass('active').prev('.modal').addClass('active');
+				} else if (i == 1) {
+					$('.modals').find('.active').removeClass('active');
+					$('.modal:nth-child('+t+')').addClass('active');
+				}
+			}
+		});
 
 	$('.package').on('click', function() {
 		$(this).toggleClass('open');
@@ -96,11 +91,3 @@ $(document).ready(function(){
 
 
 });
-
-// $( '.scrollable' ).on( 'mousewheel DOMMouseScroll', function ( e ) {
-//     var e0 = e.originalEvent,
-//         delta = e0.wheelDelta || -e0.detail;
-
-//     this.scrollTop += ( delta < 0 ? 1 : -1 ) * 30;
-//     e.preventDefault();
-// });
