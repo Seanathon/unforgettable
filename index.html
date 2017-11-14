@@ -664,25 +664,35 @@
         </section>
 
         <section class="galas" data-section-name="galas">
-            <!-- Slider main container -->
+            <h1>Past Galas</h1>
             <div class="gala-container">
-                <!-- Additional required wrapper -->
                 <div class="swiper-wrapper">
-                    <!-- Slides -->
-                    <div class="swiper-slide">Slide 1</div>
-                    <div class="swiper-slide">Slide 2</div>
-                    <div class="swiper-slide">Slide 3</div>
-                    ...
+                    <div class="swiper-slide" style="background-image: url('img/backgrounds/hero6.jpg')">
+                    <div>2016</div>
+                    <article>
+                    </article>
                 </div>
-                <!-- If we need pagination -->
-                <div class="swiper-pagination"></div>
+                    <div class="swiper-slide" style="background-image: url('img/backgrounds/hero4.jpg')">
+                    <div>2015</div>
+                    <article>
+                    </article>
+                </div>
+                    <div class="swiper-slide" style="background-image: url('img/backgrounds/hero7.jpg')">
+                    <div>2014</div>
+                    <article>
+                    </article>
+                </div>
+                    <div class="swiper-slide" style="background-image: url('img/backgrounds/hero8.jpg')">
+                    <div>2013</div>
+                    <article>
+                    </article>
+                </div>
+                </div>
                 
-                <!-- If we need navigation buttons -->
-                <div class="swiper-button-prev"></div>
-                <div class="swiper-button-next"></div>
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div> -->
                 
-                <!-- If we need scrollbar -->
-                <div class="swiper-scrollbar"></div>
+                <!-- <div class="swiper-scrollbar"></div> -->
             </div>
         </section>
 
@@ -1049,13 +1059,14 @@
 
             var galaSwiper = new Swiper ('.gala-container', 
                 {
+                slidesPerView: 4,
+                loop: true,
+                spaceBetween: 0,
+                slideToClickedSlide: true,
                 speed: 720,
-                effect: 'fade',
-                autoplay: 4000,
                 keyboardControl: true,
                 pagination: '.swiper-pagination',
                 paginationClickable: true,
-                autoplayStopOnLast: true
             });
         </script>
         <script>
