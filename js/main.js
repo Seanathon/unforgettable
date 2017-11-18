@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var wHeight = $(window).height();
 	var wHTwo = wHeight - (wHeight*0.2);
 	var wWidth = $(window).width();
-	var promoYo = $(".hero").height() + $(".about").height() + $(".recipients").height() + $(".presenters").height() + $(".performers").height() + $(".eventinfo").height() - 50;
+	var promoYo = $(".hero").height() + $(".about").height() + $(".recipients").height() + $(".presenters").height() + $(".eventinfo").height() - 50;
 	var promoYoEnd = promoYo + $('.packages').height() + $(".sponsors").height();
 
 	$(window).scroll(function() {
@@ -30,14 +30,14 @@ $(document).ready(function(){
 	// Recipients Modal
 	$('.recipient, .presenter').on('click', function() {
 		var p = $(this).data('person');
-		adCount++;
-		console.log("Ad: " + adCount);
+		// adCount++;
+		// console.log("Ad: " + adCount);
 		if ( p == "tba" ) {
 		} else {
-			if( adCount == 1 || adCount % 3 == 0 ) {
-				$('.ad-modal').toggleClass('show');
-				$("#ad")[0].src += "&autoplay=1";
-			}
+			// if( adCount == 1 || adCount % 3 == 0 ) {
+			// 	$('.ad-modal').toggleClass('show');
+			// 	$("#ad")[0].src += "&autoplay=1";
+			// }
 			$(this).parents('.people').find('.modals').find('.active').removeClass('active');
 			$('#' + p).addClass('active');
 			$(this).parents('.people').find('.modals').toggleClass('show');
@@ -92,13 +92,13 @@ $(document).ready(function(){
 	    }, 800);
 	});
 
-	$('.ad-modal').find('.close').on('click', function() {
-		if( adCount == 1 || adCount % 3 == 0 ) {
-			$("#ad").attr("src", $("#ad").attr("src").split("&")[0]);
-			$(this).parents('.ad-modal').toggleClass('show');
-		}
-		$('body').toggleClass('noscroll');
-	});
+	// $('.ad-modal').find('.close').on('click', function() {
+	// 	if( adCount == 1 || adCount % 3 == 0 ) {
+	// 		$("#ad").attr("src", $("#ad").attr("src").split("&")[0]);
+	// 		$(this).parents('.ad-modal').toggleClass('show');
+	// 	}
+	// 	$('body').toggleClass('noscroll');
+	// });
 
 
 });

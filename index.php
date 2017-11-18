@@ -57,7 +57,7 @@
                                 <li><a href="#presenters">Presenters</a></li>
                             </ul>
                         </li> -->
-                        <li class="first_tier"><a href="#performers">Performers</a></li>
+                        <!-- <li class="first_tier"><a href="#performers">Performers</a></li> -->
                         <li class="first_tier"><a href="#eventinfo">Event Info</a></li>
                         <li class="first_tier">
                             <a href="#packages">Sponsorship Packages</a>
@@ -643,7 +643,7 @@
                 </div>
                 <div class="recipient" data-person="eastwestplayers">
                     <div class="bgimg" style="background-image: url('img/HEADSHOTS/PERFORMERS/EWP.jpg')"></div>
-                    <div class="name">East<br /> West<br /> Players</div>
+                    <div class="name">East West<br /> Players</div>
                 </div>
             </div>
             <div class="modals">
@@ -654,7 +654,7 @@
                     </button>
                     <div>
                         <div class="recipient">
-                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PERFORMERS/JUDITHHILL.jpg')"></div>
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/JUDITHHILL.jpg')"></div>
                             <div class="name">Judith Hill</div>
                         </div>
                     </div>
@@ -687,7 +687,7 @@
                     </button>
                     <div>
                         <div class="recipient">
-                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PERFORMERS/EPIKHIGH.jpg')"></div>
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/EPIKHIGH.jpg')"></div>
                             <div class="name">Epik High</div>
                         </div>
                     </div>
@@ -710,7 +710,7 @@
                     </button>
                     <div>
                         <div class="recipient">
-                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PERFORMERS/KINJAZ.jpg')"></div>
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/KINJAZ.jpg')"></div>
                             <div class="name">Kinjaz</div>
                         </div>
                     </div>
@@ -729,7 +729,7 @@
                     </button>
                     <div>
                         <div class="recipient">
-                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PERFORMERS/EWP.jpg')"></div>
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/EWP.jpg')"></div>
                             <div class="name">East West Players</div>
                         </div>
                     </div>
