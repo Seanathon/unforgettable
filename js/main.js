@@ -3,7 +3,7 @@ $(document).ready(function(){
 	var wHeight = $(window).height();
 	var wHTwo = wHeight - (wHeight*0.2);
 	var wWidth = $(window).width();
-	var promoYo = $(".hero").height() + $(".about").height() + $(".recipients").height() + $(".presenters").height() + $(".eventinfo").height() - 50;
+	var promoYo = $(".hero").height() + $(".about").height() + $(".recipients").height() + $(".presenters").height() + $(".performers").height() + $(".eventinfo").height() - 50;
 	var promoYoEnd = promoYo + $('.packages').height() + $(".sponsors").height();
 
 	$(window).scroll(function() {

@@ -57,7 +57,7 @@
                                 <li><a href="#presenters">Presenters</a></li>
                             </ul>
                         </li> -->
-                        <!-- <li class="first_tier"><a href="#performers">Performers</a></li> -->
+                        <li class="first_tier"><a href="#performers">Performers</a></li>
                         <li class="first_tier"><a href="#eventinfo">Event Info</a></li>
                         <li class="first_tier">
                             <a href="#packages">Sponsorship Packages</a>
@@ -373,6 +373,8 @@
                                 <p>Chloe has had just as much success off of the mountain as she has had on it, being featured on Forbes 30 under 30 list in 2017, TIME’s 30 Most Influential Teens of 2016, and espnW’s 2015 IMPACT25 list. In addition, Chloe has been nominated for an ESPY, Kids Choice Sports Award, and two Laureus World Sports Awards.</p>
 
                                 <p>Chloe qualified to make the 2014 Olympic Halfpipe team, but due to her age and IOC rules, was unable to compete, setting up her debut on the Olympics stage in Korea in 2018. Chloe’s first tracks on a snowboard were at the age of four and she began competing when she was six. Chloe, whose parents emigrated from Korea, now lives in Los Angeles with her family.</p>
+
+                                <p>Photo Credit: Getty Sports.</p>
                             </div>
                         </div>
                     </div>
@@ -643,7 +645,7 @@
                 </div>
                 <div class="recipient" data-person="eastwestplayers">
                     <div class="bgimg" style="background-image: url('img/HEADSHOTS/PERFORMERS/EWP.jpg')"></div>
-                    <div class="name">East West<br /> Players</div>
+                    <div class="name">East<br /> West<br /> Players</div>
                 </div>
             </div>
             <div class="modals">
@@ -654,7 +656,7 @@
                     </button>
                     <div>
                         <div class="recipient">
-                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/JUDITHHILL.jpg')"></div>
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PERFORMERS/JUDITHHILL.jpg')"></div>
                             <div class="name">Judith Hill</div>
                         </div>
                     </div>
@@ -687,7 +689,7 @@
                     </button>
                     <div>
                         <div class="recipient">
-                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/EPIKHIGH.jpg')"></div>
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PERFORMERS/EPIKHIGH.jpg')"></div>
                             <div class="name">Epik High</div>
                         </div>
                     </div>
@@ -710,7 +712,7 @@
                     </button>
                     <div>
                         <div class="recipient">
-                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/KINJAZ.jpg')"></div>
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PERFORMERS/KINJAZ.jpg')"></div>
                             <div class="name">Kinjaz</div>
                         </div>
                     </div>
@@ -729,8 +731,8 @@
                     </button>
                     <div>
                         <div class="recipient">
-                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/EWP.jpg')"></div>
-                            <div class="name">East West Players</div>
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PERFORMERS/EWP.jpg')"></div>
+                            <div class="name">East<br /> West<br /> Players</div>
                         </div>
                     </div>
                     <div>
@@ -1102,6 +1104,11 @@
                         <div class="sponsor">
                             <a href="http://davidryu.lacity.org/" target="_blank">
                                 <img src="img/LOGOS/DAVIDRYU.png" alt="Councilman David Ryu">
+                            </a>
+                        </div>
+                        <div class="sponsor">
+                            <a href="" target="_blank">
+                                <img src="img/LOGOS/PPR.png" alt="Pacific Palms Resort">
                             </a>
                         </div>
                     </div>
