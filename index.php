@@ -494,70 +494,54 @@
                         Karrueche Tran
                     </div>
                 </div>
-                <!-- <div class="presenter" data-person="tokimonsta">
+                <div class="presenter" data-person="allymaki">
                     <div class="image">
-                        <img src="img/HEADSHOTS/PRESENTERS/TOKIMONSTA.jpg" alt="">
+                        <img src="img/HEADSHOTS/PRESENTERS/ALLYMAKI.jpg" alt="">
                     </div>
                     <div class="name">
-                        Rich Chigga
+                        Ally Maki
                     </div>
                 </div>
-                <div class="presenter" data-person="tokimonsta">
+                <div class="presenter" data-person="apolloohno">
                     <div class="image">
-                        <img src="img/HEADSHOTS/PRESENTERS/TOKIMONSTA.jpg" alt="">
+                        <img src="img/HEADSHOTS/PRESENTERS/APOLOOHNO.jpg" alt="">
                     </div>
                     <div class="name">
-                        David Choe
+                        Apollo Ohno
                     </div>
                 </div>
-                <div class="presenter" data-person="tokimonsta">
+                <div class="presenter" data-person="inpyocha">
                     <div class="image">
-                        <img src="img/HEADSHOTS/PRESENTERS/TOKIMONSTA.jpg" alt="">
+                        <img src="img/HEADSHOTS/PRESENTERS/INPYOCHA.jpg" alt="">
                     </div>
                     <div class="name">
-                        Dumbfoundead
+                        Cha In Pyo
                     </div>
                 </div>
-                <div class="presenter" data-person="tokimonsta">
+                <div class="presenter" data-person="kellyhu">
                     <div class="image">
-                        <img src="img/HEADSHOTS/PRESENTERS/TOKIMONSTA.jpg" alt="">
+                        <img src="img/HEADSHOTS/PRESENTERS/KELLYHU.jpg" alt="">
                     </div>
                     <div class="name">
-                        Wong Fu Productions
+                        Kelly Hu
                     </div>
                 </div>
-                <div class="presenter" data-person="tokimonsta">
+                <div class="presenter" data-person="marianaklaveno">
                     <div class="image">
-                        <img src="img/HEADSHOTS/PRESENTERS/TOKIMONSTA.jpg" alt="">
+                        <img src="img/HEADSHOTS/PRESENTERS/MARIANAKLAVENO.jpg" alt="">
                     </div>
                     <div class="name">
-                        Jeannie Mai
+                        Mariana Klaveno
                     </div>
                 </div>
-                <div class="presenter" data-person="tokimonsta">
+                <div class="presenter" data-person="ptolemyslocum">
                     <div class="image">
-                        <img src="img/HEADSHOTS/PRESENTERS/TOKIMONSTA.jpg" alt="">
+                        <img src="img/HEADSHOTS/PRESENTERS/PTOLEMYSLOCUM.jpg" alt="">
                     </div>
                     <div class="name">
-                        Tokimonsta
+                        Ptolemy Slocum
                     </div>
                 </div>
-                <div class="presenter" data-person="tokimonsta">
-                    <div class="image">
-                        <img src="img/HEADSHOTS/PRESENTERS/TOKIMONSTA.jpg" alt="">
-                    </div>
-                    <div class="name">
-                        David Choe
-                    </div>
-                </div>
-                <div class="presenter" data-person="tokimonsta">
-                    <div class="image">
-                        <img src="img/HEADSHOTS/PRESENTERS/TOKIMONSTA.jpg" alt="">
-                    </div>
-                    <div class="name">
-                        Dumbfoundead
-                    </div>
-                </div> -->
             </div>
             <div class="modals">
                 <div id="jeanniemai" class="modal">
@@ -619,6 +603,174 @@
                                 <p>Karrueche has also had the opportunity to collaborate with some incredible brands including ColourPop, for the launch of her makeup collaboration KaePop, a line of high-end temporary tattoos with Tattify called K-INK, a capsule collection for festival season with This is a Love Song, as well as V/SUAL by Van Styles on a limited edition t-shirt line, which was exclusively sold at PacSun. Her love for fashion and beauty is complimented by her desire to give back through charity and philanthropic endeavors. "Helping those who are facing a challenge is extremely important to me. If you have an opportunity to lend a helping hand to someone in one way or another, you absolutely should."</p>
 
                                 <p>Philanthropy has always played a significant role in the young star’s life. Karrueche currently serves on the Board of Directors for The Environmental Media Association’s (EMA), a non-profit organization committed to providing urban school gardens that inspire students to make healthier food choices and have greater self-confidence and leadership skills. As a young EMA board member, Karrueche especially plays a big proponent in inspiring youth. She has donated her time and own investment to the Green My School Program through her ColourPop cosmetics line, as well as currently spearheading The Watt’s Garden Project.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="allymaki" class="modal">
+                    <button class="close">
+                        <div class="l1"></div>
+                        <div class="l2"></div>
+                    </button>
+                    <div>
+                        <div class="recipient">
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/ALLYMAKI.jpg')"></div>
+                            <div class="name">Ally Maki</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bio">
+                            <div class="bio-scroll">
+                                <p>Meet actress/model Karrueche Tran, one of Hollywood's most beloved starlets. Hailing from Originally from Kirkland, WA, Japanese-American actress Ally Maki moved to Los
+                                Angeles when she was fourteen after being scouted by a talent agent. Upon her
+                                arrival in Los Angeles, Ally was signed to Columbia Records in the all-girl band &quot;The
+                                Valli Girls&quot;. In 2009, Ally was cast as &quot;Dawn&quot; on the ABC Family series “10 Things I Hate About You,&quot; and later followed with the film &quot;Geography Club, playing &quot;Min,&quot; in 2013.</p>
+
+                                <p>Now, Ally is showcasing her comedic acting chops in the TBS comedy series
+                                “Wrecked,” as &quot;Jess,&quot; the fun, feisty, and hopeless romantic of the ensemble cast.
+                                The show centers around a group of plane crash survivors adapting to life on a
+                                remote island, and adjusting to a new world. “Wrecked,” premiered as the Number
+                                One Cable Comedy of 2016 and just completed airing its second season, and has
+                                been picked up for a third. Ally was recently a celebrity guest on Conan, showing her
+                                comedic chops on a national talk show outside of her role on the series.</p>
+
+                                <p>Other television credits for Ally include recurring roles on the CW series “Privileged,”
+                                TNT&#39;s “Franklin and Bash,” and guest starring roles on the series “New Girl,” “2
+                                Broke Girls,” “NCIS,” and “The Big Bang Theory.”</p>
+
+                                <p>Beyond acting, Ally has been working hard to ensure diversity is being recognized in
+                                Hollywood. She recently participated in the Diversity Speaks panel during LA Film
+                                Festival along with other well-known Asian American actors in the industry. She also
+                                has partnered to support GIRLS INC. and wants to help empower young women.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="apolloohno" class="modal">
+                    <button class="close">
+                        <div class="l1"></div>
+                        <div class="l2"></div>
+                    </button>
+                    <div>
+                        <div class="recipient">
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/APOLOOHNO.jpg')"></div>
+                            <div class="name">Apollo Ohno</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bio">
+                            <div class="bio-scroll">
+                                <p>A three-time Olympian in short track speedskating, Apolo Ohno is the most decorated U.S. Olympic winter athlete of all time with eight medals, including two golds.</p>
+                                
+                                <p>Ohno became interested in short track speedskating at age 12 while watching the Olympic Winter Games Lillehammer 1994. Despite his late start, it only took Ohno two years to become the youngest national champion ever, and he went on to win 12 national titles throughout his illustrious career.</p>
+                                
+                                <p>Ohno was the first American to win the overall world cup title in the 2000-01 season, and subsequently won the title twice more, in 2003 and 2005. He has at least one medal in each of the Olympic distances: gold in the 500-meter; silver and two bronzes in the 1,000; gold and silver in the 1,500; and two bronzes in the 5,000 relay. In addition, he owns 21 world championship medals (8 golds, 7 silvers, 6 bronzes).</p>
+                                
+                                <p>The Seattle native won &quot;Dancing with the Stars&quot; in 2007, appeared on &quot;Project Runway&quot; as a guest judge in 2008, hosted &quot;Minute to Win It&quot; for one season (2012-13) and currently serves as a color commentator for NBC&#39;s &quot;Spartan: Ultimate Team Challenge.&quot; In addition, he has worked for NBC at three consecutive Olympics, serving as a sportsdesk reporter at London 2012 and Rio 2016, and as a short track analyst at Sochi 2014.</p>
+
+                                <p>In recent years Ohno has branched out into new ventures. In 2014, he competed in the Ironman Triathlon in Kona, Hawaii. Later that year, he hosted the Apolo Ohno Invitational in conjunction with US Speedskating in Salt Lake City, bringing together the top speedskaters in the nation for a weekend of friendly competition.</p>
+
+                                <p>Ohno is a Special Olympics Global Ambassador and travels the world for the organization. His book, &quot;Zero Regrets,&quot; details the inspiring story behind his enduring success as an elite athlete and was a New York Times bestseller.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="inpyocha" class="modal">
+                    <button class="close">
+                        <div class="l1"></div>
+                        <div class="l2"></div>
+                    </button>
+                    <div>
+                        <div class="recipient">
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/INPYOCHA.jpg')"></div>
+                            <div class="name">Inpyo Cha</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bio">
+                            <div class="bio-scroll">
+                                <p>South Korean film and television star Cha In Pyo is a multiple -Award winning actor and producer, whose career spans more than two decades in entertainment. Making his acting debut in 1993 on popular Korean television drama, Cha In Pyo quickly became a house hold name not only in his native Korea, but also in China, and through Asia. He has starred in many popular films and television dramas, including the recent Laurel Tree Tailors(2016-2017), as well as the English-Language original Neflix series “Sense8” (2015) by Wochowskys, and the feature film “Seoul Searching” (2015) directed by Benson Lee that premiered at the prestigious Sundance Film Festival.</p>
+
+                                <p>Cha In Pyo has won two Baeksang Arts Awards (the Korean Golden Globes), as well as multiple KBS, SBS, and MBC drama awards. He is also known for being the first Korean actor to star in Chinese and Taiwan TV drama in the early 2000s.</p>
+                                
+                                <p>In 2016, Cha In Pyo founded TKC Pictures, a Korean film production, that specializes in producing faith friendly &amp; family friendly films. TKC pictures is in the process of producing Heaven quest: A Pilgrim’s Progress in association with US based King Street Pictures.</p>
+                                
+                                <p>Cha In Pyo has been married to Shin Ae Ra since 1995, and the couple are well known for their philanthropic works, especially for the welfare of children. In 2006, he received a Korean Presidential commendation Award for the promotion and protection of children’s rights.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="kellyhu" class="modal">
+                    <button class="close">
+                        <div class="l1"></div>
+                        <div class="l2"></div>
+                    </button>
+                    <div>
+                        <div class="recipient">
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/KELLYHU.jpg')"></div>
+                            <div class="name">Kelly Hu</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bio">
+                            <div class="bio-scroll">
+                                <p>Kelly Hu catapulted into the spotlight in 1985 representing her home state of Hawaii when she became the first Asian American to be crowned Miss Teen USA. Upon hearing of her victory, the Chinese press graced her with the name Hu Kai Li (胡凯丽).</p>
+
+                                <p>Her exposure in the pageant led to international modeling assignments and her first acting job, a recurring guest star role on the television series Growing Pains. Since then, Kelly has added more than one hundred credits over her thirty year career.</p>
+
+                                <p>You may know her as the Sorceress alongside Dwayne Johnson in The Scorpion King or as Lady Deathstrike in X2: X-Men United for which Kelly was invited to be the first Hollywood actress to premiere an American film in China.</p>
+                                
+                                <p>Kelly is a black belt in karate and has used her skills in fight scenes with Jet li in Cradle to the Grave and Sammo Hung in the series Martial Law, which received a TV Guide award for Best New Drama Series.</p>
+                                
+                                <p>Currently recurring on the hit series, Arrow, as China White and on Seth Macfalane’s Orville, she also recurred as Pearl on The Vampire Diaries and as Abigail Chow on Warehouse 13. She long voiced the characters Stacy on the animated series, Phineas and Ferb and Karai on Teenage Mutant Ninja Turtles and can currently be heard recurring in Stretch Armstrong and as Cheshire in Young Justice.</p>
+                                
+                                <p>An avid traveller Kelly has been to over 50 countries but still finds time for charity work. She ran the Honolulu marathon to jumpstart a reef conservation program called Reef Check Hawaii. She is also an Ambassador for Best Buddies, a charity helping people with intellectual and developmental disabilities, and hosts numerous fundraisers including an annual poker tournament for Best Buddies California for the past six years.</p> 
+
+                                <p>Kelly uses her breadth of experience to speak to young people across the country encouraging them to celebrate their individuality and dare to follow their dreams.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="marianaklaveno" class="modal">
+                    <button class="close">
+                        <div class="l1"></div>
+                        <div class="l2"></div>
+                    </button>
+                    <div>
+                        <div class="recipient">
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/MARIANAKLAVENO.jpg')"></div>
+                            <div class="name">Mariana Klaveno</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bio">
+                            <div class="bio-scroll">
+                                <p>Mariana Klaveno – transitions from “Stalker” and Marc Cherry’s “Devious Maids” into DirecTV’s “Full Circle” and an arc on “Designated Survivor.”  Previously made indelible impressions on Alan Ball’s “True Blood” as Lorena, Bill’s conniving maker, as well as on “Dexter,” and recently appeared opposite Arnold Schwarzenegger in the film, “Aftermath”.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="ptolemyslocum" class="modal">
+                    <button class="close">
+                        <div class="l1"></div>
+                        <div class="l2"></div>
+                    </button>
+                    <div>
+                        <div class="recipient">
+                            <div class="bgimg" style="background-image: url('img/HEADSHOTS/PRESENTERS/PTOLEMYSLOCUM.jpg')"></div>
+                            <div class="name">Ptolemy Slocum</div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="bio">
+                            <div class="bio-scroll">
+                                <p>Multi-faceted actor and performer Ptolemy Slocum broke into the world of TV and film through such diverse array of programming as MTV’s ground-breaking and irreverent WONDER SHOWZEN, David Simon’s THE WIRE &amp; David Chase’s SOPRANOS for HBO and the feature film HITCH starring Will Smith. </p>
+
+                                <p>Slocum has continued to amass a wide range of credits appearing on VEEP (HBO), MARRIED (FX), NURSE JACKIE (Showtime), FRINGE (Fox), WORKAHOLICS (Comedy Central), BURN NOTICE (USA) and many others. Recurring roles include Andrew Haigh’s LOOKING (HBO), Seth Rogen and Evan Goldberg’s PREACHER (AMC) and Marvel’s INHUMANS. </p>
+
+                                <p>In addition, he has founded the improv school at Nerdist, voiced roles for Grand Theft Auto and worked opposite Billy Crystal for Funny or Die.</p> 
+
+                                <p>Slocum can currently be seen recurring as lab tech “Sylvester” on HBO’s highly acclaimed and Emmy-nominated WESTWORLD. In 2017, he was nominated for a SAG Award along with his cast for Best Ensemble. </p>
                             </div>
                         </div>
                     </div>
@@ -1049,6 +1201,11 @@
                                 <img src="img/LOGOS/MLHONG.png" alt="M & L Hong Foundation">
                             </a>
                         </div>
+                        <div class="sponsor">
+                            <a href="https://www.hanmi.com/" target="_blank">
+                                <img src="img/LOGOS/HANMIBANK.png" alt="Hanmi Bank">
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -1056,13 +1213,13 @@
                     <h2>Corporate</h2>
                     <div class="sponsors-container">
                         <div class="sponsor">
-                            <a href="http://www.miraeasset.com/main.html" target="_blank">
-                                <img src="img/LOGOS/MIRAE.png" alt="Mirae Asset">
+                            <a href="http://tenadv.com/" target="_blank">
+                                <img src="img/LOGOS/TENADVERTISING.png" alt="Ten Advertising">
                             </a>
                         </div>
                         <div class="sponsor">
-                            <a href="http://tenadv.com/" target="_blank">
-                                <img src="img/LOGOS/TENADVERTISING.png" alt="Ten Advertising">
+                            <a href="http://www.miraeasset.com/main.html" target="_blank">
+                                <img src="img/LOGOS/MIRAE.png" alt="Mirae Asset">
                             </a>
                         </div>
                         <div class="sponsor">
@@ -1076,14 +1233,14 @@
                             </a>
                         </div>
                         <div class="sponsor">
-                            <a href="http://ridley-thomas.lacounty.gov/" target="_blank">
-                                <img src="img/LOGOS/MARKRIDLEY.png" alt="Supervisor Mark Ridley Thomas">
-                            </a>
-                        </div>
-                        <div class="sponsor">
                             <!-- <a href="" target="_blank"> -->
                                 <img src="img/LOGOS/SEQUOIA.png" alt="Sequoia">
                             <!-- </a> -->
+                        </div>
+                        <div class="sponsor">
+                            <a href="http://ridley-thomas.lacounty.gov/" target="_blank">
+                                <img src="img/LOGOS/MARKRIDLEY.png" alt="Supervisor Mark Ridley Thomas" style="max-height:85px;">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -1109,6 +1266,11 @@
                         <div class="sponsor">
                             <a href="" target="_blank">
                                 <img src="img/LOGOS/PPR.png" alt="Pacific Palms Resort">
+                            </a>
+                        </div>
+                        <div class="sponsor">
+                            <a href="https://www.hbo.com/" target="_blank">
+                                <img src="img/LOGOS/HBO.png" alt="HBO" style="max-height:30px;">
                             </a>
                         </div>
                     </div>
@@ -1177,7 +1339,7 @@
             var mySwiper = new Swiper ('.hero-swiper', {
                 speed: 720,
                 effect: 'fade',
-                autoplay: 4000,
+                autoplay: 135000,
                 keyboardControl: true,
                 pagination: '.swiper-pagination',
                 paginationClickable: true,

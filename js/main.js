@@ -79,17 +79,27 @@ $(document).ready(function(){
 		$(this).toggleClass('open');
 		$.scrollify.update();
 	});
-	$('.sponsor-scroller.right').click(function () {
+	$('.sponsor-scroller.right').on('click', function () {
 	    var leftPos = $('div.packages-scroll').scrollLeft();
 	    $("div.packages-scroll").animate({
 	        scrollLeft: leftPos + $('.package').width()
 	    }, 800);
 	});
-	$('.sponsor-scroller.left').click(function () {
+	$('.sponsor-scroller.left').on('click', function () {
 	    var leftPos = $('div.packages-scroll').scrollLeft();  
 	    $("div.packages-scroll").animate({
 	        scrollLeft: leftPos - $('.package').width()
 	    }, 800);
+	});
+
+	$('.gala-swiper').find('.swiper-slide').on('click', function() {
+			$('.gala-window').toggleClass('show');
+			$('body').toggleClass('noscroll');
+	});
+
+	$('.gala-window').find('.close').on('click', function() {
+			$('.gala-window').removeClass('show');
+			$('body').removeClass('noscroll');
 	});
 
 	// $('.ad-modal').find('.close').on('click', function() {

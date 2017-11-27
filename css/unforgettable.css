@@ -79,7 +79,7 @@ h1 {
     justify-content: center;
     top: 40px;
     left: 45px;
-    font-size: 0.94444rem;
+    font-size: 0.944444444rem;
     letter-spacing: 0.2em;
     z-index: 10; }
     .gui .logo img {
@@ -104,7 +104,7 @@ h1 {
     top: 50%;
     left: 45px;
     margin-top: -228.5px;
-    font-size: 0.72222rem;
+    font-size: 0.722222222rem;
     text-transform: uppercase;
     color: #95793a;
     letter-spacing: 0.18em;
@@ -248,7 +248,7 @@ h1 {
     width: 30px;
     text-decoration: none; }
     .social a i {
-      font-size: 0.83333rem; }
+      font-size: 0.833333333rem; }
   .social li {
     float: left; }
     .social li:first-child a {
@@ -260,7 +260,7 @@ h1 {
   right: 45px;
   bottom: 50px;
   color: #464646;
-  font-size: 0.66667rem; }
+  font-size: 0.666666667rem; }
 
 section {
   height: 100vh;
@@ -988,7 +988,7 @@ section {
     .sponsors .sponsor:nth-child(even) {
       margin: 0 80px 20px; }
     .sponsors .sponsor img {
-      max-height: 60px; }
+      max-height: 70px; }
   .sponsors img.logo-adjustment {
     max-height: 80px;
     margin: 0 80px; }
@@ -1005,7 +1005,7 @@ section {
   position: relative;
   width: 60%;
   margin: 0 auto;
-  padding-top: 10%;
+  padding-top: 4%;
   padding-bottom: 5rem;
   height: 100%;
   -webkit-display: flex;
@@ -1030,7 +1030,7 @@ section {
     position: relative;
     box-sizing: border-box;
     padding: 3%;
-    width: 50% !important;
+    width: 25%;
     text-align: center;
     cursor: pointer;
     transition: 320ms ease-in-out; }
@@ -1042,7 +1042,7 @@ section {
       margin-top: 0.5rem;
       font-family: 'Roboto Condensed', sans-serif;
       font-weight: 700;
-      font-size: 1.125rem;
+      font-size: 0.875rem;
       text-transform: uppercase;
       letter-spacing: 0.4rem;
       color: #95793a; }
@@ -1057,12 +1057,23 @@ section {
     left: 0;
     width: 100%;
     text-transform: uppercase;
-    font-size: 1rem;
+    font-size: 0.75rem;
     letter-spacing: 0.4em;
     color: #95793a; }
 
 .galas {
-  position: relative; }
+  position: relative;
+  background-color: #c9ad6f; }
+  .galas .close {
+    top: 0;
+    right: -28px; }
+    .galas .close .l1,
+    .galas .close .l2 {
+      height: 1px; }
+  .galas .gala-container {
+    position: relative;
+    width: 67%;
+    margin: auto; }
   .galas h1 {
     position: absolute;
     text-align: center;
@@ -1071,11 +1082,142 @@ section {
     font-size: 1.39rem;
     color: #fff;
     z-index: 3; }
+  .galas .gala-window {
+    position: fixed;
+    z-index: 99;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: #fcf5e4;
+    overflow-y: scroll;
+    -webkit-opacity: 0;
+    -moz-opacity: 0;
+    opacity: 0;
+    -webkit-visibility: hidden;
+    -moz-visibility: hidden;
+    visibility: hidden;
+    -webkit-pointer-events: none;
+    -moz-pointer-events: none;
+    pointer-events: none;
+    transition: 320ms; }
+    .galas .gala-window h1 {
+      top: 0;
+      margin-top: 5rem;
+      position: relative;
+      color: #402c00; }
+    .galas .gala-window h2 {
+      font-family: 'Roboto Condensed', sans-serif;
+      font-size: 0.8rem;
+      text-transform: uppercase;
+      text-align: center;
+      font-weight: 500;
+      letter-spacing: 0.2em;
+      margin-top: 2rem; }
+    .galas .gala-window p {
+      width: 100%;
+      max-width: 700px;
+      margin: auto;
+      text-align: center;
+      font-size: 0.8rem;
+      color: #95793b;
+      line-height: 1.67em; }
+    .galas .gala-window .presenter {
+      font-family: 'Roboto Condensed', sans-serif;
+      box-sizing: border-box;
+      width: 16.666666667%;
+      float: left;
+      padding: 0 2%;
+      text-align: center;
+      color: #95793a;
+      margin-top: 0.5rem; }
+      .galas .gala-window .presenter:nth-child(n + 7) {
+        margin-top: 2rem; }
+      .galas .gala-window .presenter .image {
+        border-radius: 50%;
+        overflow: hidden; }
+      .galas .gala-window .presenter .name {
+        margin-top: 0.5rem;
+        text-transform: uppercase;
+        font-size: 0.725rem;
+        font-weight: 700;
+        letter-spacing: 0.14rem; }
+      .galas .gala-window .presenter .title {
+        font-size: 0.62rem;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 0.14rem; }
+    .galas .gala-window .people {
+      overflow: auto;
+      display: block; }
+      .galas .gala-window .people.other .presenter {
+        padding: 0 3%; }
+    .galas .gala-window .gallery {
+      display: block;
+      overflow: auto;
+      width: 100%;
+      margin-bottom: 6rem; }
+      .galas .gala-window .gallery .mediabox {
+        position: relative;
+        box-sizing: border-box;
+        background-size: cover;
+        background-position: center;
+        width: 23.5%;
+        height: 135px;
+        float: left;
+        margin: 0 1%; }
+        .galas .gala-window .gallery .mediabox:nth-child(4n+1) {
+          margin-left: 0; }
+        .galas .gala-window .gallery .mediabox:nth-child(4n) {
+          margin-right: 0; }
+        .galas .gala-window .gallery .mediabox:nth-child(n+5) {
+          margin-top: 2%; }
+        .galas .gala-window .gallery .mediabox .mask {
+          position: absolute;
+          font-family: 'Roboto Condensed', sans-serif;
+          font-size: 0.78rem;
+          letter-spacing: 0.2em;
+          color: #402c00;
+          width: 100%;
+          height: 100%;
+          overflow: auto;
+          background-color: rgba(212, 204, 187, 0.5);
+          -webkit-display: flex;
+          -moz-display: flex;
+          display: flex;
+          -webkit-align-items: center;
+          -moz-align-items: center;
+          align-items: center;
+          -webkit-justify-content: center;
+          -moz-justify-content: center;
+          justify-content: center;
+          -webkit-flex-direction: column;
+          -moz-flex-direction: column;
+          flex-direction: column; }
+          .galas .gala-window .gallery .mediabox .mask .playbutton {
+            border: 2px solid #ab8b31;
+            border-radius: 50%;
+            padding: 0.175rem 0.3rem;
+            color: #ab8b31;
+            margin-top: 0.5rem; }
+            .galas .gala-window .gallery .mediabox .mask .playbutton i {
+              position: relative;
+              left: 2px; }
+    .galas .gala-window.show {
+      -webkit-opacity: 1;
+      -moz-opacity: 1;
+      opacity: 1;
+      -webkit-visibility: visible;
+      -moz-visibility: visible;
+      visibility: visible;
+      -webkit-pointer-events: auto;
+      -moz-pointer-events: auto;
+      pointer-events: auto; }
 
-.gala-container {
+.gala-swiper {
   width: 100%;
   height: 100%; }
-  .gala-container .swiper-slide {
+  .gala-swiper .swiper-slide {
     -webkit-display: flex;
     -moz-display: flex;
     display: flex;
@@ -1095,29 +1237,45 @@ section {
     background-position: center;
     color: #fff;
     cursor: pointer; }
-    .gala-container .swiper-slide > div {
+    .gala-swiper .swiper-slide > div:first-child {
       position: relative;
       top: 30%; }
-  .gala-container article {
-    opacity: 0;
-    background-color: #dad8d2;
-    position: absolute;
-    height: 100%;
-    width: 75vw;
-    left: 100%;
-    z-index: 5;
-    transition: 360ms ease-in-out;
-    z-index: 4;
-    -webkit-transform: translateY(100%);
-    -moz-transform: translateY(100%);
-    transform: translateY(100%); }
-  .gala-container .swiper-slide.swiper-slide-active {
+    .gala-swiper .swiper-slide:nth-child(even) .gradient_mask {
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,9a7f51+100&0+45,1+99 */
+      background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(210, 197, 177, 0) 45%, #9b8053 99%, #9a7f51 100%);
+      /* FF3.6-15 */
+      background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(210, 197, 177, 0) 45%, #9b8053 99%, #9a7f51 100%);
+      /* Chrome10-25,Safari5.1-6 */
+      background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(210, 197, 177, 0) 45%, #9b8053 99%, #9a7f51 100%);
+      /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#9a7f51',GradientType=1 );
+      /* IE6-9 fallback on horizontal gradient */ }
+  .gala-swiper .swiper-slide.swiper-slide-active {
     z-index: 5; }
-    .gala-container .swiper-slide.swiper-slide-active article {
+    .gala-swiper .swiper-slide.swiper-slide-active article {
       opacity: 1;
       -webkit-transform: translateY(0);
       -moz-transform: translateY(0);
       transform: translateY(0); }
+  .gala-swiper .gradient_mask {
+    position: absolute !important;
+    top: 0 !important;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    pointer-events: none;
+    z-index: 3;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,c9ad6f+100&0+45,1+99 */
+    background: -moz-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(231, 218, 190, 0) 45%, #caae70 99%, #c9ad6f 100%);
+    /* FF3.6-15 */
+    background: -webkit-radial-gradient(center, ellipse cover, rgba(255, 255, 255, 0) 0%, rgba(231, 218, 190, 0) 45%, #caae70 99%, #c9ad6f 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: radial-gradient(ellipse at center, rgba(255, 255, 255, 0) 0%, rgba(231, 218, 190, 0) 45%, #caae70 99%, #c9ad6f 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#c9ad6f',GradientType=1 );
+    /* IE6-9 fallback on horizontal gradient */ }
 
 .swiper-container {
   width: 100%;
@@ -1652,7 +1810,24 @@ section {
   .performers .recipient {
     height: 260px;
     width: 260px;
-    margin: 0 0px 115px 110px; } }
+    margin: 0 0px 115px 110px; }
+
+  .galas .gala-window .presenter {
+    width: 25%; }
+    .galas .gala-window .presenter:nth-child(n + 5) {
+      margin-top: 2rem; }
+
+  .gala-swiper .swiper-wrapper {
+    display: block; }
+  .gala-swiper .swiper-slide {
+    position: relative;
+    height: 250px; }
+    .gala-swiper .swiper-slide > div:first-child {
+      z-index: 4;
+      position: absolute;
+      top: auto;
+      bottom: 25px;
+      right: 25px; } }
 @media screen and (max-width: 780px) {
   .performers .recipient {
     height: 260px;
@@ -1748,11 +1923,11 @@ section {
       .hero .sponsor img {
         max-width: 70%; }
 
-  .swiper-container .swiper-pagination-bullets {
+  .hero-container .swiper-pagination-bullets {
     bottom: 30px !important; }
-  .swiper-container .swiper-pagination-bullet {
+  .hero-container .swiper-pagination-bullet {
     width: 35px; }
-  .swiper-container .swiper-slide:nth-child(2) {
+  .hero-container .swiper-slide:nth-child(3) {
     background-image: url("../img/backgrounds/UNFO_SLIDE_2_768.jpg") !important; }
 
   .about {
@@ -1943,7 +2118,26 @@ section {
 
   .presenters .presenter-container {
     width: 90%;
-    padding-bottom: 10rem; } }
+    padding-bottom: 10rem; }
+
+  .galas .gala-container {
+    width: 80%; }
+  .galas .gala-window .gallery .mediabox {
+    width: 32%; }
+    .galas .gala-window .gallery .mediabox:nth-child(4n) {
+      margin-right: 1%; }
+    .galas .gala-window .gallery .mediabox:nth-child(4n+1) {
+      margin-left: 1%; }
+    .galas .gala-window .gallery .mediabox:nth-child(3n+1) {
+      margin-left: 0;
+      margin-right: 1%; }
+    .galas .gala-window .gallery .mediabox:nth-child(3n) {
+      margin-right: 0;
+      margin-left: 1%; }
+    .galas .gala-window .gallery .mediabox:nth-child(n+5) {
+      margin-top: 0; }
+    .galas .gala-window .gallery .mediabox:nth-child(n+4) {
+      margin-top: 2%; } }
 @media screen and (max-width: 768px) and (max-height: 690px) {
   .gui .cta img {
     max-height: 95px !important; }
@@ -2077,7 +2271,7 @@ section {
     left: 85%; } }
 @media screen and (max-width: 550px) {
   .presenters .presenter-container {
-    padding-top: 110px; }
+    padding-top: 40px; }
     .presenters .presenter-container > div {
       width: 50%;
       padding: 3%; }
@@ -2120,7 +2314,12 @@ section {
   .performers .recipient {
     height: 180px;
     width: 180px;
-    margin: 0 0px 115px 40px; } }
+    margin: 0 0px 115px 40px; }
+
+  .galas .gala-window .presenter {
+    width: 33.333333333%; }
+    .galas .gala-window .presenter:nth-child(n+4) {
+      margin-top: 2rem; } }
 @media screen and (max-width: 455px) {
   .recipients .recipient, .recipients .recipient:nth-child(2), .recipients .recipient:nth-child(even) {
     width: 175px;
@@ -2174,7 +2373,7 @@ section {
       margin-top: 0;
       text-align: center;
       font-size: 0.875rem;
-      top: 133%;
+      top: 140%;
       left: 0; }
   .people .modal > div:last-child {
     font-size: 0.85rem;
@@ -2233,7 +2432,38 @@ section {
     height: 158px; }
     .packages .package ul {
       padding-left: 1rem;
-      font-size: 0.65rem; } }
+      font-size: 0.65rem; }
+
+  .galas .gala-container {
+    width: 80%; }
+  .galas .gala-window .presenter {
+    width: 50%; }
+    .galas .gala-window .presenter:nth-child(n+3) {
+      margin-top: 2rem; }
+  .galas .gala-window .gallery .mediabox {
+    width: 49%; }
+    .galas .gala-window .gallery .mediabox:nth-child(4n) {
+      margin-right: 1%; }
+    .galas .gala-window .gallery .mediabox:nth-child(4n+1) {
+      margin-left: 0; }
+    .galas .gala-window .gallery .mediabox:nth-child(3n+1) {
+      margin-left: 0;
+      margin-right: 1%; }
+    .galas .gala-window .gallery .mediabox:nth-child(3n) {
+      margin-right: 1%;
+      margin-left: 0; }
+    .galas .gala-window .gallery .mediabox:nth-child(n+5) {
+      margin-top: 0; }
+    .galas .gala-window .gallery .mediabox:nth-child(n+4) {
+      margin-top: 2%; }
+    .galas .gala-window .gallery .mediabox:nth-child(2n) {
+      margin-right: 0;
+      margin-left: 1%; }
+    .galas .gala-window .gallery .mediabox:nth-child(n + 3) {
+      margin-top: 2%; }
+    .galas .gala-window .gallery .mediabox:nth-child(odd) {
+      margin-right: 1%;
+      margin-left: 0; } }
 @media screen and (max-width: 385px) {
   .people .modals > .carousel-controls {
     top: 54.5%; }
